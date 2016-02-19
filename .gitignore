@@ -1,0 +1,11 @@
+# OS-specific
+.DS_Store
+
+# python binaries
+*.pyc
+
+# vim temporary
+*~
+
+# idea files
+.idea/*
