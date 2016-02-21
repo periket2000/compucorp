@@ -75,3 +75,7 @@ Just connect to it with:
     ssh -i /tmp/compu_key.pem admin@ip_displayed_in_the_instalation_process
 
 Check whatever you want.
+
+## Backup strategy
+
+Once deployed, we'll have a scheduled process to backup our site to s3 bucket. What we backups are drupal and civi databases as well as the whole site. This process could be refined by doing weekly full backups plus incremental daily backups.
