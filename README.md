@@ -78,4 +78,4 @@ Check whatever you want.
 
 ## Backup strategy
 
-Once deployed, we'll have a scheduled process to backup our site to s3 bucket. What we backups are drupal and civi databases as well as the whole site. This process could be refined by doing weekly full backups plus incremental daily backups.
+Once deployed, we'll have a scheduled process to backup our site to s3 bucket. What we backup is drupal and civi databases as well as the whole site. This process could be refined by doing weekly full backups plus incremental daily backups.
